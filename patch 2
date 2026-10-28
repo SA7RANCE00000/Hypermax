@@ -1,0 +1,19 @@
+public class ProductNames {   
+public static void main(String[] args) {   
+String product1 = "Laptop";    
+String product2 = "Mobile Phone";   
+String product3 = "Headphones"; 
+System.out.println(product1);    
+System.out.println(product2);     
+System.out.println(product3);  
+}
+}
+
+ double total = laptopPrice + mobilePrice + headphonesPrice;      
+System.out.println("----- Product Bill -----");    
+System.out.printf("Laptop:    OMR %.3f%n", laptopPrice);    
+System.out.printf("Mobile Phone: OMR %.3f%n", mobilePrice);    
+System.out.printf("Headphones:   OMR %.3f%n", headphonesPrice);    
+System.out.printf("Total Bill:   OMR %.3f%n", total);   
+}
+}
